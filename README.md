@@ -4,6 +4,7 @@ This project aims to fight the spread of false information and disinformation in
 
 
 Dataset used :- https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
+
 We have two separate .csv files, one having the real news, called 'true.csv' and another one, having the fake news, called 'fake.csv'.
 
 Then, we obtain the pre-trained BERT model to use as the base of our Fake News Detection Model using HuggingFace’s Transformers library. BERT has insane language comprehension capability. So, it shall make our model better understand news context and hence make intelligent predictions on news being fake or not.
